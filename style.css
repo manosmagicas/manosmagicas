@@ -1,0 +1,311 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    position: sticky;
+    top: 0px;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li{
+    margin-right: 20px;
+}
+
+header ul li a{
+    color: rgba(0, 0, 0, 0.568);
+    text-decoration: none;
+}
+
+header ul li a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.main{
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.invitacion{
+    position: absolute;
+    bottom: 38%;
+    left: 20px;
+    color: white;
+}
+
+.manos{
+    position: absolute;
+    bottom: 30%;
+    color: white;
+    left: 20px;
+}
+
+#logo{
+    height: 40px;
+    width: auto;
+    margin-left: 20px;
+}
+
+#flecha{
+    position: absolute;
+    left: 50%;
+    width: 100px;
+    
+}
+
+#final{
+    width: 100%;
+    height: 200px;
+    background-color: red;
+}
+
+.verde{
+    width: 100%;
+    height: 200px;
+    background-color: greenyellow;
+}
+
+.azul{
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+}
+
+#flechita{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 4px solid rgb(255, 255, 255);
+    border-right: 4px solid rgb(255, 255, 255);
+    transform: rotate(45deg) translate(-50px, -50px);
+    animation: animate 2s infinite;
+}
+
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px, -20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px, 20px);
+    }
+}
+
+.container{
+    width: 100%;
+}
+
+.invitaciones{
+    width: 100%;
+    height: 536px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.invitaciones img{
+    width: 16%;
+    height: 30%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.invitaciones img:hover{
+    background-color: red;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+#invitacionesh1{
+    margin-left: 20px;
+    color: hotpink;
+}
+
+.cont{
+    width: 150px;
+    height: 150px;
+}
+
+.cont img{
+    width: 100%;
+    height: 100%;
+}
+
+#t{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 0;
+}
+
+.footer{
+    width: 100%;
+    height: 320px;
+    background-color: darkgrey;
+    overflow: hidden;
+}
+
+
+
+
+.redes{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.redes img{
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+}
+
+.terminos{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.terminos h4{
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bautizo{
+    height: 536px;
+}
+
+#bautizo{
+    width: 100%;
+    height: 536px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#bautizos-tittle{
+    position: absolute;
+    top: 50%;
+    color: white;
+    font-size: 100px;
+}
+
+div{
+    width: 100%;
+    height: 100vh;
+}
+
+div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 1;
+}
+
+div h1{
+    z-index: 2;
+    color: white;
+}
+
+.contenedortotal{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.centrado{
+    position: absolute;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+
+#boda{
+    color: black;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #adadad;
+}
+
+#textofinal{
+    height: 40px;
+    transform: translate(-50%, -800%);
+}
+
+.redes a:hover{
+    border-bottom: 4px solid black;
+}
+
+.terminos a{
+    color: black;
+}
